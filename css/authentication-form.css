@@ -24,10 +24,17 @@ p {
 
 /* 👇👇👇  ADD YOUR FORM STYLES BENEATH  👇👇👇*/
 
+.content {
+  display: flex;
+  gap: 15px;
+}
+
 form {
   border: 1px solid #a9a9a9;
   padding: 20px;
-  
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .subtext {
@@ -38,21 +45,48 @@ form {
 #sign-in,
 #sign-up {
   width: 100%;
-}
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  }
 
-a {
+ a {
   color: #335eea;
   text-decoration: none;
-}
+ }
 
 label {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 input {
   width: 100%;
   height: 30px;
   padding: 5px;
+  }
+
+.form-group-horizontal-control {
+  display: flex;
+  gap: 20px;
+}
+
+.form-input-control {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-submit-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.form-radio-control label {
+  font-weight: normal;
 }
 
 input[type="checkbox"],
