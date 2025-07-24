@@ -12,6 +12,8 @@ body {
 
 .content {
   padding: 30px;
+  display: flex;
+  gap: 15px;
 }
 
 h2 {
@@ -23,11 +25,6 @@ p {
 }
 
 /* 👇👇👇  ADD YOUR FORM STYLES BENEATH  👇👇👇*/
-
-.content {
-  display: flex;
-  gap: 15px;
-}
 
 form {
   border: 1px solid #a9a9a9;
@@ -116,5 +113,9 @@ input[type="submit"]:hover {
 }
 
 .form select {
+  height: 30px;
+}
+
+select {
   height: 30px;
 }
